@@ -1,0 +1,849 @@
+{
+    "roles": {
+        "Junior konsult": {
+            "Projektledning": 10.0,
+            "Förberedelse": 30.0,
+            "Ritarbete": 40.0,
+            "Handläggning": 10.0,
+            "Granskning": 10.0
+        },
+        "Handläggare": {
+            "Projektledning": 15.0,
+            "Förberedelse": 25.0,
+            "Ritarbete": 30.0,
+            "Handläggning": 20.0,
+            "Granskning": 10.0
+        },
+        "Senior konsult": {
+            "Projektledning": 25.0,
+            "Förberedelse": 15.0,
+            "Ritarbete": 15.0,
+            "Handläggning": 25.0,
+            "Granskning": 20.0
+        },
+        "Specialist": {
+            "Projektledning": 20.0,
+            "Förberedelse": 10.0,
+            "Ritarbete": 10.0,
+            "Handläggning": 30.0,
+            "Granskning": 30.0
+        },
+        "Senior specialist": {
+            "Projektledning": 30.0,
+            "Förberedelse": 10.0,
+            "Ritarbete": 5.0,
+            "Handläggning": 25.0,
+            "Granskning": 30.0
+        }
+    },
+    "employees": {
+        "101": {
+            "Anställningsnummer": "101",
+            "Förnamn": "Anna",
+            "Efternamn": "Andersson",
+            "Gatuadress": "Storgatan 1",
+            "Postnummer": "11122",
+            "Kommun": "Stockholm",
+            "Utbildning (år)": 3.0,
+            "Erfarenhet (år)": 1.5,
+            "Grundtitel": "Junior konsult",
+            "Titel": "Junior konsult",
+            "Självgående": false,
+            "Kundkontakt": false,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 6.0,
+                    "Förberedelse": 7.0,
+                    "Ritarbete": 6.5,
+                    "Handläggning": 6.0,
+                    "Granskning": 5.5
+                }
+            }
+        },
+        "102": {
+            "Anställningsnummer": "102",
+            "Förnamn": "Erik",
+            "Efternamn": "Johansson",
+            "Gatuadress": "Kungsgatan 4",
+            "Postnummer": "41108",
+            "Kommun": "Göteborg",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 4.0,
+            "Grundtitel": "Handläggare",
+            "Titel": "Handläggare",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 7.0,
+                    "Förberedelse": 8.0,
+                    "Ritarbete": 7.5,
+                    "Handläggning": 8.0,
+                    "Granskning": 6.0
+                }
+            }
+        },
+        "103": {
+            "Anställningsnummer": "103",
+            "Förnamn": "Maria",
+            "Efternamn": "Karlsson",
+            "Gatuadress": "Drottninggatan 12",
+            "Postnummer": "60224",
+            "Kommun": "Norrköping",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 8.5,
+            "Grundtitel": "Handläggare",
+            "Titel": "Senior konsult",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": true,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 8.5,
+                    "Förberedelse": 8.0,
+                    "Ritarbete": 9.0,
+                    "Handläggning": 8.5,
+                    "Granskning": 8.0
+                }
+            }
+        },
+        "104": {
+            "Anställningsnummer": "104",
+            "Förnamn": "Johan",
+            "Efternamn": "Nilsson",
+            "Gatuadress": "Södra vägen 8",
+            "Postnummer": "25220",
+            "Kommun": "Helsingborg",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 6.0,
+            "Grundtitel": "Handläggare",
+            "Titel": "Specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 7.5,
+                    "Förberedelse": 8.0,
+                    "Ritarbete": 8.5,
+                    "Handläggning": 9.0,
+                    "Granskning": 7.5
+                }
+            }
+        },
+        "105": {
+            "Anställningsnummer": "105",
+            "Förnamn": "Karin",
+            "Efternamn": "Olsson",
+            "Gatuadress": "Storgatan 45",
+            "Postnummer": "75320",
+            "Kommun": "Uppsala",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 12.0,
+            "Grundtitel": "Handläggare",
+            "Titel": "Senior specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": true,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 9.0,
+                    "Förberedelse": 8.5,
+                    "Ritarbete": 8.0,
+                    "Handläggning": 9.5,
+                    "Granskning": 9.0
+                }
+            }
+        },
+        "106": {
+            "Anställningsnummer": "106",
+            "Förnamn": "Lars",
+            "Efternamn": "Persson",
+            "Gatuadress": "Vasagatan 3",
+            "Postnummer": "41124",
+            "Kommun": "Göteborg",
+            "Utbildning (år)": 3.0,
+            "Erfarenhet (år)": 0.5,
+            "Grundtitel": "Junior konsult",
+            "Titel": "Junior konsult",
+            "Självgående": false,
+            "Kundkontakt": false,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 5.0,
+                    "Förberedelse": 6.0,
+                    "Ritarbete": 6.0,
+                    "Handläggning": 5.0,
+                    "Granskning": 5.0
+                },
+                "2027": {
+                    "Projektledning": 7.7,
+                    "Förberedelse": 5.1,
+                    "Ritarbete": 3.0,
+                    "Handläggning": 7.4,
+                    "Granskning": 5.0
+                }
+            }
+        },
+        "107": {
+            "Anställningsnummer": "107",
+            "Förnamn": "Sara",
+            "Efternamn": "Svensson",
+            "Gatuadress": "Östra gatan 9",
+            "Postnummer": "21125",
+            "Kommun": "Malmö",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 3.5,
+            "Grundtitel": "Handläggare",
+            "Titel": "Handläggare",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 7.0,
+                    "Förberedelse": 7.5,
+                    "Ritarbete": 7.0,
+                    "Handläggning": 7.5,
+                    "Granskning": 6.5
+                }
+            }
+        },
+        "108": {
+            "Anställningsnummer": "108",
+            "Förnamn": "Mikael",
+            "Efternamn": "Gustafsson",
+            "Gatuadress": "Skolgatan 14",
+            "Postnummer": "90325",
+            "Kommun": "Umeå",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 9.0,
+            "Grundtitel": "Handläggare",
+            "Titel": "Senior specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": true,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 8.5,
+                    "Förberedelse": 8.0,
+                    "Ritarbete": 8.0,
+                    "Handläggning": 9.0,
+                    "Granskning": 8.5
+                }
+            }
+        },
+        "109": {
+            "Anställningsnummer": "109",
+            "Förnamn": "Emma",
+            "Efternamn": "Pettersson",
+            "Gatuadress": "Hamngatan 22",
+            "Postnummer": "11147",
+            "Kommun": "Stockholm",
+            "Utbildning (år)": 3.0,
+            "Erfarenhet (år)": 2.0,
+            "Grundtitel": "Junior konsult",
+            "Titel": "Junior konsult",
+            "Självgående": false,
+            "Kundkontakt": false,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 6.5,
+                    "Förberedelse": 7.0,
+                    "Ritarbete": 7.5,
+                    "Handläggning": 6.5,
+                    "Granskning": 6.0
+                }
+            }
+        },
+        "110": {
+            "Anställningsnummer": "110",
+            "Förnamn": "Anders",
+            "Efternamn": "Jönsson",
+            "Gatuadress": "Torggatan 5",
+            "Postnummer": "55316",
+            "Kommun": "Jönköping",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 7.0,
+            "Grundtitel": "Handläggare",
+            "Titel": "Senior konsult",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": true,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 8.0,
+                    "Förberedelse": 8.0,
+                    "Ritarbete": 8.5,
+                    "Handläggning": 8.0,
+                    "Granskning": 7.5
+                }
+            }
+        },
+        "111": {
+            "Anställningsnummer": "111",
+            "Förnamn": "Hanna",
+            "Efternamn": "Lindqvist",
+            "Gatuadress": "Parkgatan 7",
+            "Postnummer": "70211",
+            "Kommun": "Örebro",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 5.0,
+            "Grundtitel": "Handläggare",
+            "Titel": "Specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 7.5,
+                    "Förberedelse": 7.5,
+                    "Ritarbete": 8.0,
+                    "Handläggning": 8.5,
+                    "Granskning": 8.0
+                }
+            }
+        },
+        "112": {
+            "Anställningsnummer": "112",
+            "Förnamn": "Per",
+            "Efternamn": "Jonsson",
+            "Gatuadress": "Bergsgatan 2",
+            "Postnummer": "85232",
+            "Kommun": "Sundsvall",
+            "Utbildning (år)": 3.0,
+            "Erfarenhet (år)": 1.0,
+            "Grundtitel": "Junior konsult",
+            "Titel": "Junior konsult",
+            "Självgående": false,
+            "Kundkontakt": false,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 6.0,
+                    "Förberedelse": 6.5,
+                    "Ritarbete": 6.0,
+                    "Handläggning": 6.0,
+                    "Granskning": 5.5
+                }
+            }
+        },
+        "113": {
+            "Anställningsnummer": "113",
+            "Förnamn": "Linda",
+            "Efternamn": "Carlsson",
+            "Gatuadress": "Klockaregatan 11",
+            "Postnummer": "22229",
+            "Kommun": "Lund",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 4.5,
+            "Grundtitel": "Handläggare",
+            "Titel": "Handläggare",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 7.0,
+                    "Förberedelse": 7.0,
+                    "Ritarbete": 7.5,
+                    "Handläggning": 7.0,
+                    "Granskning": 6.5
+                }
+            }
+        },
+        "114": {
+            "Anställningsnummer": "114",
+            "Förnamn": "Olof",
+            "Efternamn": "Berg",
+            "Gatuadress": "Norra stationsgatan 18",
+            "Postnummer": "11364",
+            "Kommun": "Stockholm",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 11.0,
+            "Grundtitel": "Handläggare",
+            "Titel": "Senior specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": true,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 9.5,
+                    "Förberedelse": 9.0,
+                    "Ritarbete": 8.5,
+                    "Handläggning": 9.0,
+                    "Granskning": 9.0
+                }
+            }
+        },
+        "115": {
+            "Anställningsnummer": "115",
+            "Förnamn": "Karin",
+            "Efternamn": "Holm",
+            "Gatuadress": "Föreningsgatan 10",
+            "Postnummer": "21144",
+            "Kommun": "Malmö",
+            "Utbildning (år)": 3.0,
+            "Erfarenhet (år)": 2.5,
+            "Grundtitel": "Junior konsult",
+            "Titel": "Junior konsult",
+            "Självgående": false,
+            "Kundkontakt": false,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 6.5,
+                    "Förberedelse": 7.0,
+                    "Ritarbete": 7.0,
+                    "Handläggning": 6.5,
+                    "Granskning": 6.0
+                }
+            }
+        },
+        "116": {
+            "Anställningsnummer": "116",
+            "Förnamn": "Tobias",
+            "Efternamn": "Ek",
+            "Gatuadress": "Lilla gatan 3",
+            "Postnummer": "41114",
+            "Kommun": "Göteborg",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 6.5,
+            "Grundtitel": "Handläggare",
+            "Titel": "Senior konsult",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": true,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 8.0,
+                    "Förberedelse": 7.5,
+                    "Ritarbete": 8.0,
+                    "Handläggning": 8.0,
+                    "Granskning": 8.0
+                }
+            }
+        },
+        "117": {
+            "Anställningsnummer": "117",
+            "Förnamn": "Malin",
+            "Efternamn": "Falk",
+            "Gatuadress": "Klostergatan 6",
+            "Postnummer": "58222",
+            "Kommun": "Linköping",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 7.5,
+            "Grundtitel": "Handläggare",
+            "Titel": "Specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 8.0,
+                    "Förberedelse": 8.0,
+                    "Ritarbete": 8.5,
+                    "Handläggning": 9.0,
+                    "Granskning": 8.0
+                }
+            }
+        },
+        "118": {
+            "Anställningsnummer": "118",
+            "Förnamn": "Fredrik",
+            "Efternamn": "Dahl",
+            "Gatuadress": "Ågatan 15",
+            "Postnummer": "58223",
+            "Kommun": "Linköping",
+            "Utbildning (år)": 3.0,
+            "Erfarenhet (år)": 1.2,
+            "Grundtitel": "Junior konsult",
+            "Titel": "Junior konsult",
+            "Självgående": false,
+            "Kundkontakt": false,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 5.5,
+                    "Förberedelse": 6.0,
+                    "Ritarbete": 6.5,
+                    "Handläggning": 5.5,
+                    "Granskning": 5.0
+                }
+            }
+        },
+        "119": {
+            "Anställningsnummer": "119",
+            "Förnamn": "Camilla",
+            "Efternamn": "Sandberg",
+            "Gatuadress": "Sveavägen 50",
+            "Postnummer": "11134",
+            "Kommun": "Stockholm",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 4.2,
+            "Grundtitel": "Handläggare",
+            "Titel": "Handläggare",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 7.0,
+                    "Förberedelse": 7.5,
+                    "Ritarbete": 7.0,
+                    "Handläggning": 7.5,
+                    "Granskning": 6.5
+                }
+            }
+        },
+        "120": {
+            "Anställningsnummer": "120",
+            "Förnamn": "Stefan",
+            "Efternamn": "Nyqvist",
+            "Gatuadress": "Västergatan 1",
+            "Postnummer": "35230",
+            "Kommun": "Växjö",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 10.5,
+            "Grundtitel": "Handläggare",
+            "Titel": "Senior specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": true,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 9.0,
+                    "Förberedelse": 8.5,
+                    "Ritarbete": 8.0,
+                    "Handläggning": 9.0,
+                    "Granskning": 9.0
+                }
+            }
+        },
+        "121": {
+            "Anställningsnummer": "121",
+            "Förnamn": "Josefine",
+            "Efternamn": "Lund",
+            "Gatuadress": "Skolgatan 8",
+            "Postnummer": "75332",
+            "Kommun": "Uppsala",
+            "Utbildning (år)": 3.0,
+            "Erfarenhet (år)": 2.8,
+            "Grundtitel": "Junior konsult",
+            "Titel": "Junior konsult",
+            "Självgående": false,
+            "Kundkontakt": false,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 7.0,
+                    "Förberedelse": 7.5,
+                    "Ritarbete": 7.5,
+                    "Handläggning": 7.0,
+                    "Granskning": 6.5
+                }
+            }
+        },
+        "122": {
+            "Anställningsnummer": "122",
+            "Förnamn": "Daniel",
+            "Efternamn": "Ström",
+            "Gatuadress": "Kungsportsavenyen 12",
+            "Postnummer": "41136",
+            "Kommun": "Göteborg",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 8.0,
+            "Grundtitel": "Handläggare",
+            "Titel": "Senior konsult",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": true,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 8.5,
+                    "Förberedelse": 8.0,
+                    "Ritarbete": 8.5,
+                    "Handläggning": 8.5,
+                    "Granskning": 8.0
+                }
+            }
+        },
+        "123": {
+            "Anställningsnummer": "123",
+            "Förnamn": "Therese",
+            "Efternamn": "Ahl",
+            "Gatuadress": "Storgatan 88",
+            "Postnummer": "90330",
+            "Kommun": "Umeå",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 6.2,
+            "Grundtitel": "Handläggare",
+            "Titel": "Specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 7.5,
+                    "Förberedelse": 8.0,
+                    "Ritarbete": 8.0,
+                    "Handläggning": 8.5,
+                    "Granskning": 7.5
+                }
+            }
+        },
+        "124": {
+            "Anställningsnummer": "124",
+            "Förnamn": "Henrik",
+            "Efternamn": "Björk",
+            "Gatuadress": "Centralvägen 4",
+            "Postnummer": "19443",
+            "Kommun": "Upplands Väsby",
+            "Utbildning (år)": 3.0,
+            "Erfarenhet (år)": 0.8,
+            "Grundtitel": "Junior konsult",
+            "Titel": "Junior konsult",
+            "Självgående": false,
+            "Kundkontakt": false,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 5.0,
+                    "Förberedelse": 5.5,
+                    "Ritarbete": 6.0,
+                    "Handläggning": 5.0,
+                    "Granskning": 5.0
+                }
+            }
+        },
+        "125": {
+            "Anställningsnummer": "125",
+            "Förnamn": "Caroline",
+            "Efternamn": "Wallin",
+            "Gatuadress": "Drottninggatan 30",
+            "Postnummer": "11151",
+            "Kommun": "Stockholm",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 3.2,
+            "Grundtitel": "Handläggare",
+            "Titel": "Handläggare",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 6.5,
+                    "Förberedelse": 7.0,
+                    "Ritarbete": 7.0,
+                    "Handläggning": 7.0,
+                    "Granskning": 6.0
+                }
+            }
+        },
+        "126": {
+            "Anställningsnummer": "126",
+            "Förnamn": "Jonas",
+            "Efternamn": "Nordin",
+            "Gatuadress": "Kyrkogatan 15",
+            "Postnummer": "87131",
+            "Kommun": "Härnösand",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 14.0,
+            "Grundtitel": "Handläggare",
+            "Titel": "Senior specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": true,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 9.0,
+                    "Förberedelse": 9.0,
+                    "Ritarbete": 8.5,
+                    "Handläggning": 9.5,
+                    "Granskning": 9.0
+                }
+            }
+        },
+        "127": {
+            "Anställningsnummer": "127",
+            "Förnamn": "Sofia",
+            "Efternamn": "Åström",
+            "Gatuadress": "Stationsgatan 2",
+            "Postnummer": "93131",
+            "Kommun": "Skellefteå",
+            "Utbildning (år)": 3.0,
+            "Erfarenhet (år)": 2.2,
+            "Grundtitel": "Junior konsult",
+            "Titel": "Junior konsult",
+            "Självgående": false,
+            "Kundkontakt": false,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 6.0,
+                    "Förberedelse": 6.5,
+                    "Ritarbete": 6.5,
+                    "Handläggning": 6.0,
+                    "Granskning": 5.5
+                }
+            }
+        },
+        "128": {
+            "Anställningsnummer": "128",
+            "Förnamn": "Patrik",
+            "Efternamn": "Söderberg",
+            "Gatuadress": "Stora gatan 19",
+            "Postnummer": "72212",
+            "Kommun": "Västerås",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 7.2,
+            "Grundtitel": "Handläggare",
+            "Titel": "Senior konsult",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": false,
+            "Stabilitetsberäkningar": false,
+            "Granskningsbehörig": true,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 8.0,
+                    "Förberedelse": 8.0,
+                    "Ritarbete": 8.0,
+                    "Handläggning": 8.0,
+                    "Granskning": 7.5
+                }
+            }
+        },
+        "129": {
+            "Anställningsnummer": "129",
+            "Förnamn": "Elin",
+            "Efternamn": "Hedlund",
+            "Gatuadress": "Skolgatan 22",
+            "Postnummer": "93231",
+            "Kommun": "Umeå",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 5.8,
+            "Grundtitel": "Handläggare",
+            "Titel": "Specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": false,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 7.5,
+                    "Förberedelse": 7.5,
+                    "Ritarbete": 8.0,
+                    "Handläggning": 8.0,
+                    "Granskning": 7.5
+                }
+            }
+        },
+        "130": {
+            "Anställningsnummer": "130",
+            "Förnamn": "Marcus",
+            "Efternamn": "Sundström",
+            "Gatuadress": "Järnvägsgatan 9",
+            "Postnummer": "80250",
+            "Kommun": "Gävle",
+            "Utbildning (år)": 5.0,
+            "Erfarenhet (år)": 9.5,
+            "Grundtitel": "Handläggare",
+            "Titel": "Senior specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": true,
+            "Poäng": {
+                "2026": {
+                    "Projektledning": 9.0,
+                    "Förberedelse": 8.5,
+                    "Ritarbete": 8.5,
+                    "Handläggning": 9.0,
+                    "Granskning": 8.5
+                }
+            }
+        },
+        "1": {
+            "Anställningsnummer": "1",
+            "Förnamn": "123",
+            "Efternamn": "123",
+            "Gatuadress": "",
+            "Postnummer": "",
+            "Kommun": "",
+            "Utbildning (år)": 0.0,
+            "Erfarenhet (år)": 0.0,
+            "Grundtitel": "Junior konsult",
+            "Titel": "Senior specialist",
+            "Självgående": true,
+            "Kundkontakt": true,
+            "Sättningsberäkningar": true,
+            "Stabilitetsberäkningar": true,
+            "Granskningsbehörig": true,
+            "Poäng": {}
+        }
+    },
+    "settings": {
+        "exp_threshold": 3.0
+    }
+}

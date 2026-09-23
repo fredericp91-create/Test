@@ -1,3 +1,10 @@
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/my-streamlit-app.git
+git push -u origin main
+
 import streamlit as st
 import pandas as pd
 import json
